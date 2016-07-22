@@ -1,11 +1,12 @@
 body{
     text-align: center;
-    z-index:1;
 }
 
 #page_header{
-   margin-top: 50px; 
+    padding-top:50px;
+   
    margin-bottom: 20px;
+   background-color: ghostwhite;
 }
 #page_header a{
     color:#272f59;
@@ -20,11 +21,24 @@ nav li{
     padding: 10px;
     font-size:12px;
 }
+#s_media li{
+list-style: none;
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+}
+#s_media{
+    position: absolute;
+    top: 20px;
+    right:30px;
+    font-size:0.1em;
+}
 
 #id{
     background-color:#ffffff;
     height:270px;
     width: 800px;
+    padding-top: 50px;
 }
 
  #id h1{
@@ -56,15 +70,21 @@ footer{
     padding-top: 20px; 
     color: white;
     font-size: 12px;
-    text-align: center
+    
 }
 
 #christ  { 
  position: absolute;
  left: 14px;
- top: 0px;
+ top: 20px;
  z-index:1;
 
+}
+#christ h5{
+    float: right;
+    font-family:  'Heebo',sans-serif;
+    margin-top:40px; 
+    padding-left: 10px;
 }
 
 .row{
