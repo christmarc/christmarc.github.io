@@ -92,3 +92,11 @@ footer{
     
 }
     
+/*........................About page come next....................*/
+#about{
+    width: 50%;
+    text-align: justify;
+    padding:50px;
+    height:400px;
+    margin-top: 80px;
+}
