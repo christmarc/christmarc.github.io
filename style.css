@@ -46,7 +46,7 @@ padding: 10px;
     font-family: 'Heebo',sans-serif;
 }
 #skills{
-    background-color:#3d3332;
+    background-color:yellowgreen;
     height:300px;
     color: #ffffff;
     padding-top:50px; 
@@ -58,10 +58,10 @@ padding: 10px;
 }
 
 button{
-    color:#3d3332;
-    border-radius: 5px;
+    color:black;
     padding: 10px;
     margin: 10px;
+    border: none;
 
 }
 footer{
